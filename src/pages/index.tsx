@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 
+
 import { api } from "~/utils/api";
 
 export default function Home() {
@@ -14,6 +15,26 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#2e026d] to-[#15162c]">
+
+      <nav className="bg-gray-800 w-full">
+  <ul className="flex justify-end items-right h-full ml-auto">
+    <li>
+      <a href="#" className="text-white font-bold text-lg">Verkkosivut</a>
+    </li>
+    <li>
+      <a href="#" className="text-white font-bold text-lg">Verkkokaupat</a>
+    </li>
+    <li>
+      <a href="#" className="text-white font-bold text-lg">Mobiilisovellukset</a>
+    </li>
+    <li>
+      <a href="#" className="text-white font-bold text-lg">Yhteystiedot</a>
+    </li>
+  </ul>
+</nav>
+
+
+
         <div className="container flex flex-col items-center justify-center gap-12 px-4 py-16 ">
         <p className="text-white text-center">Miksi tarvitset</p>
         <h1 className="text-5xl font-extrabold tracking-tight text-white sm:text-[5rem] text-center">
@@ -27,13 +48,21 @@ export default function Home() {
           <p className="text-2xl text-white text-center">
             Lähes jokainen ostoprosessi verkossa alkaa Googlesta. Yrityksen kotisivut tavoittavat asiakkaat ennen yrityksen henkilökuntaa. Valitse kotisivuillesi ammattitekijä ja laita yrityksesi julkisivu ja kassavirta kuntoon. Nopea, näyttävä ja hakukoneoptimoitu WordPress-verkkosivusto tehostaa yrityksen myyntiä ja vahvistaa brändiä. Hanki kotisivut yritykselle helposti ja vaivattomasti Horsmalta.
           </p>
-          <div className="text-center text-white">
-            <p>Rakenna brändiä, luo uskottavuutta sekä tee tulosta hakukoneoptimoiduilla ja laadukkailla kotisivuilla.</p>
-            <p>Laadukas, optimoitu sivusto</p>
-            <p>Sopii kiireiselle yrittäjälle, joka ei halua käyttää paljon aikaa projektiin</p>
-            <p>Haluat löytyä Googlesta ja ohjata asiakkaat yhteydenottoon</p>
-          </div>
+          <div className="bg-gray-800 p-4">
+  <div className="text-center text-white">
+    
+      <span className="text-3xl font-bold "> Yrityksen kotisivut ovat tärkeä osa yrityksen markkinointia ja myyntiä. 
+</span>
+    
+ 
+    <p className="list-item py-4">Rakenna brändiä, luo uskottavuutta sekä tee tulosta hakukoneoptimoiduilla ja laadukkailla kotisivuilla.</p>
+    <p className="list-item">Laadukas, optimoitu sivusto</p>
+    <p className="list-item py-4">Sopii kiireiselle yrittäjälle, joka ei halua käyttää paljon aikaa projektiin</p>
+    <p className="list-item">Haluat löytyä Googlesta ja ohjata asiakkaat yhteydenottoon</p>
+  </div>
+</div>
           
+      
         </div>
       
 
