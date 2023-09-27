@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
       <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#2e026d] to-[#15162c]">
 
-      <nav className="bg-gray-800 w-full">
+      <nav className="bg-gray-900 w-full">
   <ul className="flex justify-end items-right h-full ml-auto">
     <li>
       <a href="#" className="text-white font-bold text-lg">Verkkosivut</a>
@@ -48,7 +48,7 @@ export default function Home() {
           <p className="text-2xl text-white text-center">
             Lähes jokainen ostoprosessi verkossa alkaa Googlesta. Yrityksen kotisivut tavoittavat asiakkaat ennen yrityksen henkilökuntaa. Valitse kotisivuillesi ammattitekijä ja laita yrityksesi julkisivu ja kassavirta kuntoon. Nopea, näyttävä ja hakukoneoptimoitu WordPress-verkkosivusto tehostaa yrityksen myyntiä ja vahvistaa brändiä. Hanki kotisivut yritykselle helposti ja vaivattomasti Horsmalta.
           </p>
-          <div className="bg-gray-800 p-4">
+          <div className="bg-gray-900 p-4">
   <div className="text-center text-white">
     
       <span className="text-3xl font-bold "> Yrityksen kotisivut ovat tärkeä osa yrityksen markkinointia ja myyntiä. 
