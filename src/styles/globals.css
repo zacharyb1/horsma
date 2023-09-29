@@ -15,6 +15,12 @@
     color: violet;
   }
 
+  body {
+    color: white;
+    text-align: center;
+
+  }
+
 nav {
 height: 4rem;
 }

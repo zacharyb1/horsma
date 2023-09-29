@@ -14,7 +14,7 @@ export default function Home() {
         <meta name="description" content="Laadukkaat kotisivut ja digipalvelut yrityksellesi" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#2e026d] to-[#15162c]">
+    <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#2e026d] to-[#15162c]">
 
       <nav className="bg-gray-900 w-full">
   <ul className="flex justify-end items-right h-full ml-auto">
