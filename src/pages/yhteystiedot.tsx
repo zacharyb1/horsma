@@ -1,27 +1,17 @@
 import { NextPage } from "next";
 import Head from "next/head";
+import Menu from "../utils/menu";
 
 const YhteystiedotPage: NextPage = () => {
   return (
+    <>
+    <Head>
+            <link rel="icon" href="/favicon.ico" />
+        </Head>
+        <Menu />
     
     <main className="flex min-h-screen flex-col items-center bg-gradient-to-b from-[#2e026d] to-[#15162c]">
-        <nav className="bg-gray-900 w-full">
-        <ul className="flex justify-end items-right h-full ml-auto">
-            <li>
-                <a href="/" className="text-white font-bold text-lg">Etusivu</a>
-            </li>
-            <li>
-                <a href="verkkosivut" className="text-white font-bold text-lg">Yhteystiedot</a>
-            </li>
-            <li>
-                <a href="verkkokaupat" className="text-white font-bold text-lg">Verkkokaupat</a>
-            </li>
-            <li>
-                <a href="mobiilisovellukset" className="text-white font-bold text-lg">Mobiilisovellukset</a>
-            </li>
-            
-            </ul>
-    </nav>
+       
         <div className="flex min-h-screen flex-col items-center justify-center">
             <Head>
             <link rel="icon" href="/favicon.ico" />
@@ -31,6 +21,7 @@ const YhteystiedotPage: NextPage = () => {
         <p>This is the Yhteystiedot page.</p>
         </div>
     </main>
+    </>
   );
 };
 
