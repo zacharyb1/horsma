@@ -22,13 +22,13 @@ export default function Home() {
       <a href="verkkosivut" className="text-white font-bold text-lg">Verkkosivut</a>
     </li>
     <li>
-      <a href="#" className="text-white font-bold text-lg">Verkkokaupat</a>
+      <a href="verkkokaupat" className="text-white font-bold text-lg">Verkkokaupat</a>
     </li>
     <li>
-      <a href="#" className="text-white font-bold text-lg">Mobiilisovellukset</a>
+      <a href="mobiilisovellukset" className="text-white font-bold text-lg">Mobiilisovellukset</a>
     </li>
     <li>
-      <a href="#" className="text-white font-bold text-lg">Yhteystiedot</a>
+      <a href="yhteystiedot" className="text-white font-bold text-lg">Yhteystiedot</a>
     </li>
   </ul>
 </nav>
