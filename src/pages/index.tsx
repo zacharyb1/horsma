@@ -19,7 +19,7 @@ export default function Home() {
       <nav className="bg-gray-900 w-full">
   <ul className="flex justify-end items-right h-full ml-auto">
     <li>
-      <a href="#" className="text-white font-bold text-lg">Verkkosivut</a>
+      <a href="verkkosivut" className="text-white font-bold text-lg">Verkkosivut</a>
     </li>
     <li>
       <a href="#" className="text-white font-bold text-lg">Verkkokaupat</a>
