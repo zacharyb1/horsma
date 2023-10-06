@@ -8,10 +8,10 @@ const Menu = () => {
                 <a href="/" className="text-white font-bold text-lg">Etusivu</a>
             </li>
             <li>
-                <a href="verkkosivut" className="text-white font-bold text-lg">Verkkokaupat</a>
+                <a href="verkkosivut" className="text-white font-bold text-lg">Verkkosivut</a>
             </li>
             <li>
-                <a href="verkkokaupat" className="text-white font-bold text-lg">Mobiilisovellukset</a>
+                <a href="verkkokaupat" className="text-white font-bold text-lg">Verkkokaupat</a>
             </li>
             <li>
                 <a href="mobiilisovellukset" className="text-white font-bold text-lg">Mobiilisovellukset</a>
