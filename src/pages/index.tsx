@@ -1,3 +1,4 @@
+
 import Head from "next/head";
 import Link from "next/link";
 import Menu from "../utils/menu";
@@ -21,7 +22,7 @@ export default function Home() {
 
       
 
-    <div class="hero-banner banner-bg2">
+    {/*<div class="hero-banner banner-bg2">
     <div class="d-table">
         <div class="d-table-cell">
             <div class="container">
@@ -72,11 +73,90 @@ export default function Home() {
     <div class="shape-img8"><img src="/images/shape/shape8.png" alt="image"></div>
     <div class="shape-img9"><img src="/images/shape/shape9.png" alt="image"></div>
     <div class="shape-img10"><img src="/images/shape/shape10.png" alt="image"></div>
-</div>
+</div>*/}
 
     
 
 
+    <div className="hero-banner banner-bg2">
+      <div className="d-table">
+        <div className="d-table-cell">
+          <div className="container">
+            <div className="row align-items-center">
+              <div className="col-lg-6 col-md-12">
+                <div className="hero-main-banner-content">
+                  <span className="sub-title">Your brand, promoted</span>
+                  <h1>Creative solutions to improve your business!</h1>
+                  <p>We work hand-in-hand with industry-leading brands to help redefine the possibilities and potential of digital engagements.</p>
+                  <form>
+                    <input type="email" className="input-newsletter" placeholder="Enter your email" name="EMAIL" />
+                    <button type="submit">Get Started</button>
+                  </form>
+                </div>
+              </div>
+              <div className="col-lg-6 col-md-12">
+                <div className="hero-main-banner-image">
+                  <div className="animated" style={{ animationDuration: '1s', opacity: 0 }}>
+                    <img src="/images/banner-image/man.png" alt="man" />
+                  </div>
+                  <div className="animated" style={{ animationDuration: '1s', opacity: 0 }}>
+                    <img src="/images/banner-image/code.png" alt="code" />
+                  </div>
+                  <div className="animated" style={{ animationDuration: '1s', opacity: 0 }}>
+                    <img src="/images/banner-image/carpet.png" alt="carpet" />
+                  </div>
+                  <div className="animated" style={{ animationDuration: '1s', opacity: 0 }}>
+                    <img src="/images/banner-image/bin.png" alt="bin" />
+                  </div>
+                  <div className="animated" style={{ animationDuration: '1s', opacity: 0 }}>
+                    <img src="/images/banner-image/book.png" alt="book" />
+                  </div>
+                  <div className="animated" style={{ animationDuration: '1s', opacity: 0 }}>
+                    <img src="/images/banner-image/desktop.png" alt="desktop" />
+                  </div>
+                  {/* Add similar lines for other images */}
+                  <div className="animated fadeInUp" style={{ animationDuration: '1s' }}>
+                    <img src="/images/banner-image/main-pic.png" alt="main-pic" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="shape-img1">
+        <div className="animated fadeInUp" style={{ animationDuration: '1s' }}>
+          <img src="/images/shape/shape1.png" alt="image" />
+        </div>
+      </div>
+      <div className="shape-img2">
+        <img src="/images/shape/shape2.svg" alt="image" />
+      </div>
+      <div className="shape-img3">
+        <img src="/images/shape/shape3.svg" alt="image" />
+      </div>
+      <div className="shape-img4">
+        <img src="/images/shape/shape4.png" alt="image" />
+      </div>
+      <div className="shape-img5">
+        <img src="/images/shape/shape5.png" alt="image" />
+      </div>
+      <div className="shape-img6">
+        <img src="/images/shape/shape6.png" alt="image" />
+      </div>
+      <div className="shape-img7">
+        <img src="/images/shape/shape7.png" alt="image" />
+      </div>
+      <div className="shape-img8">
+        <img src="/images/shape/shape8.png" alt="image" />
+      </div>
+      <div className="shape-img9">
+        <img src="/images/shape/shape9.png" alt="image" />
+      </div>
+      <div className="shape-img10">
+        <img src="/images/shape/shape10.png" alt="image" />
+      </div>
+    </div>
 
 
 
