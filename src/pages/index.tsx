@@ -97,24 +97,49 @@ export default function Home() {
               <div className="col-lg-6 col-md-12">
                 <div className="hero-main-banner-image">
                   <div className="animated" style={{ animationDuration: '1s', opacity: 0 }}>
-                    <img src="/images/banner-image/man.png" alt="man" />
+                    <img src="../images/banner-image/man.png" alt="man" />
                   </div>
                   <div className="animated" style={{ animationDuration: '1s', opacity: 0 }}>
-                    <img src="/images/banner-image/code.png" alt="code" />
+                    <img src="../images/banner-image/code.png" alt="code" />
                   </div>
                   <div className="animated" style={{ animationDuration: '1s', opacity: 0 }}>
-                    <img src="/images/banner-image/carpet.png" alt="carpet" />
+                    <img src="../images/banner-image/carpet.png" alt="carpet" />
                   </div>
                   <div className="animated" style={{ animationDuration: '1s', opacity: 0 }}>
-                    <img src="/images/banner-image/bin.png" alt="bin" />
+                    <img src="../images/banner-image/bin.png" alt="bin" />
                   </div>
                   <div className="animated" style={{ animationDuration: '1s', opacity: 0 }}>
-                    <img src="/images/banner-image/book.png" alt="book" />
+                    <img src="../images/banner-image/book.png" alt="book" />
                   </div>
                   <div className="animated" style={{ animationDuration: '1s', opacity: 0 }}>
-                    <img src="/images/banner-image/desktop.png" alt="desktop" />
+                    <img src="../images/banner-image/desktop.png" alt="desktop" />
                   </div>
-                  {/* Add similar lines for other images */}
+                  <div className="animated" style={{ animationDuration: '1s', opacity: 0 }}>
+                    <img src="../images/banner-image/dot.png" alt="dot" />
+                  </div>
+                  <div className="animated" style={{ animationDuration: '1s', opacity: 0 }}>
+                    <img src="../images/banner-image/flower-top-big.png" alt="flower-top-big" />
+                  </div>
+                  <div className="animated" style={{ animationDuration: '1s', opacity: 0 }}>
+                    <img src="../images/banner-image/flower-top.png" alt="flower-top" />
+                  </div>
+                  <div className="animated" style={{ animationDuration: '1s', opacity: 0 }}>
+                    <img src="../images/banner-image/keyboard.png" alt="keyboard" />
+                  </div>
+                  <div className="animated" style={{ animationDuration: '1s', opacity: 0 }}>
+                    <img src="../images/banner-image/pen.png" alt="pen" />
+                  </div>
+                  <div className="animated" style={{ animationDuration: '1s', opacity: 0 }}>
+                    <img src="../images/banner-image/table.png" alt="table" />
+                  </div>
+                  <div className="animated" style={{ animationDuration: '1s', opacity: 0 }}>
+                    <img src="../images/banner-image/tea-cup.png" alt="tea-cup" />
+                  </div>
+                  <div className="animated" style={{ animationDuration: '1s', opacity: 0 }}>
+                    <img src="../images/banner-image/headphone.png" alt="headphone" />
+                  </div>
+      
+
                   <div className="animated fadeInUp" style={{ animationDuration: '1s' }}>
                     <img src="/images/banner-image/main-pic.png" alt="main-pic" />
                   </div>
@@ -126,35 +151,35 @@ export default function Home() {
       </div>
       <div className="shape-img1">
         <div className="animated fadeInUp" style={{ animationDuration: '1s' }}>
-          <img src="/images/shape/shape1.png" alt="image" />
+          <img src="../images/shape/shape1.png" alt="image" />
         </div>
       </div>
       <div className="shape-img2">
-        <img src="/images/shape/shape2.svg" alt="image" />
+        <img src="../images/shape/shape2.svg" alt="image" />
       </div>
       <div className="shape-img3">
-        <img src="/images/shape/shape3.svg" alt="image" />
+        <img src="../images/shape/shape3.svg" alt="image" />
       </div>
       <div className="shape-img4">
-        <img src="/images/shape/shape4.png" alt="image" />
+        <img src="/..images/shape/shape4.png" alt="image" />
       </div>
       <div className="shape-img5">
-        <img src="/images/shape/shape5.png" alt="image" />
+        <img src="../images/shape/shape5.png" alt="image" />
       </div>
       <div className="shape-img6">
-        <img src="/images/shape/shape6.png" alt="image" />
+        <img src="../images/shape/shape6.png" alt="image" />
       </div>
       <div className="shape-img7">
-        <img src="/images/shape/shape7.png" alt="image" />
+        <img src="../images/shape/shape7.png" alt="image" />
       </div>
       <div className="shape-img8">
-        <img src="/images/shape/shape8.png" alt="image" />
+        <img src="../images/shape/shape8.png" alt="image" />
       </div>
       <div className="shape-img9">
-        <img src="/images/shape/shape9.png" alt="image" />
+        <img src="../images/shape/shape9.png" alt="image" />
       </div>
       <div className="shape-img10">
-        <img src="/images/shape/shape10.png" alt="image" />
+        <img src="../images/shape/shape10.png" alt="image" />
       </div>
     </div>
 
