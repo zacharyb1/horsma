@@ -20,7 +20,7 @@ export default function Home() {
       
     <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#2e026d] to-[#15162c]">
 
-      
+    {/* Try to imlement the template first to undestand how animations work */}
 
     {/*<div class="hero-banner banner-bg2">
     <div class="d-table">
