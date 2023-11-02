@@ -37,10 +37,6 @@ export default function Home() {
             </p>
             <div className="bg-gray-900 p-4">
 
-
-
-
-
               <div className="text-center text-white">
                 <span className="text-3xl font-bold "> Yrityksen kotisivut ovat tärkeä osa yrityksen markkinointia ja myyntiä. 
                 </span>
